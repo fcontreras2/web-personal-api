@@ -4,7 +4,8 @@
   "info": {
     "singularName": "post",
     "pluralName": "posts",
-    "displayName": "post"
+    "displayName": "post",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,9 +22,22 @@
       "type": "richtext",
       "required": true
     },
+    "isArticle": {
+      "type": "boolean",
+      "default": false
+    },
+    "presentation_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
     "seo": {
       "type": "component",
       "repeatable": false,
+      "required": false,
       "component": "shared.seo"
     }
   }
