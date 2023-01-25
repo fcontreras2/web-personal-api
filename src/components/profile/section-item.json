@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_profile_section_items",
+  "info": {
+    "displayName": "Section item",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "link": {
+      "type": "string"
+    },
+    "item_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

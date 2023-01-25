@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_profile_sections",
+  "info": {
+    "displayName": "Sections",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "Section item",
+      "type": "component",
+      "repeatable": true,
+      "component": "profile.section-item"
+    }
+  }
+}

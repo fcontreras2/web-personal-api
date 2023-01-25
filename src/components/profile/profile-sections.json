@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_shared_profile_sections",
+  "info": {
+    "displayName": "work experience",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "company_name": {
+      "type": "string"
+    },
+    "period": {
+      "type": "string"
+    },
+    "role": {
+      "type": "string"
+    },
+    "company_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "company_description": {
+      "type": "richtext"
+    },
+    "projects": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profile.work-experiences-projects"
+    }
+  }
+}
