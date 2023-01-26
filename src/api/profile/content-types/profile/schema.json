@@ -64,6 +64,9 @@
       "type": "component",
       "repeatable": true,
       "component": "profile.sections"
+    },
+    "location": {
+      "type": "string"
     }
   }
 }
