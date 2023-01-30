@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_profile_skills",
+  "info": {
+    "displayName": "skill"
+  },
+  "options": {},
+  "attributes": {
+    "percentage": {
+      "type": "integer",
+      "max": 100
+    },
+    "tag": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::tag.tag"
+    }
+  }
+}

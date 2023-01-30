@@ -7,5 +7,4 @@ module.exports = ({ env }) => ({
       defaultDepth: 10, // Default is 5
     }
   },
-  ckeditor: true
 });

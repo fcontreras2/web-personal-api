@@ -67,6 +67,16 @@
     },
     "location": {
       "type": "string"
+    },
+    "skills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profile.skill"
+    },
+    "others_skills": {
+      "type": "component",
+      "repeatable": true,
+      "component": "profile.skill"
     }
   }
 }
