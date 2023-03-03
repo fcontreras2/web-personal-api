@@ -43,6 +43,12 @@
     "url": {
       "type": "uid",
       "targetField": "name"
+    },
+    "rank": {
+      "type": "integer"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }
